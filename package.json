@@ -1,0 +1,43 @@
+{
+  "name": "grunt-pythonjs",
+  "description": "A Grunt plugin for PythonJS to compile pythonjs to javascript.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/VTJamie/grunt-pythonjs",
+  "author": {
+    "name": "Jamieson Abbott",
+    "email": "jdabbott@vt.edu"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VTJamie/grunt-pythonjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VTJamie/grunt-pythonjs/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/VTJamie/grunt-pythonjs/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "python-js": "*",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5",
+    "python-js": "*"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
